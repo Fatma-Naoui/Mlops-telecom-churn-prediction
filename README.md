@@ -75,20 +75,23 @@ The solution operationalizes machine learning with:
 
 ---
 ## Project Structure
-├── app.py / main.py # Entry points for training and execution
-├── model_pipeline.py # Preprocessing & training logic
-├── fastapi_app.py # FastAPI service for model deployment
-├── streamlit_app.py # Streamlit interface for interactive predictions
+
+```plaintext
+├── app.py / main.py             # Entry points for training and execution
+├── model_pipeline.py            # Preprocessing & training logic
+├── fastapi_app.py               # FastAPI service for model deployment
+├── streamlit_app.py             # Streamlit interface for interactive predictions
 ├── send_email.py / send_notif.py # Notification scripts
-├── model.joblib / modelRF.pkl # Saved models
-├── scaler.pkl # Preprocessing artifact
-├── mlflow.db # MLflow experiment tracking database
+├── model.joblib / modelRF.pkl   # Saved models
+├── scaler.pkl                   # Preprocessing artifact
+├── mlflow.db                    # MLflow experiment tracking database
 ├── Dockerfile / docker-compose.yml # Containerization setup
-├── Jenkinsfile / Makefile # CI/CD and automation
-├── requirements.txt # Python dependencies
+├── Jenkinsfile / Makefile       # CI/CD and automation
+├── requirements.txt             # Python dependencies
 ├── data/
-│ ├── Churn_Modelling.csv # Dataset 1
-│ └── churn-bigml-20.csv # Dataset 2
-└── README.md # Project documentation
-## Project Structure
+│   ├── Churn_Modelling.csv      # Dataset 1
+│   └── churn-bigml-20.csv       # Dataset 2
+└── README.md                    # Project documentation
+
+
 
